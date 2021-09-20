@@ -2,6 +2,7 @@
   "name": "use-clear-params",
   "version": "0.1.0",
   "description": "React hook to clear search parameters from the url",
+  "author": "Omer Yalhi (omer@yalhi.com)",
   "license": "MIT",
   "main": "lib/index.js",
   "module": "esm/index.js",
@@ -29,15 +30,21 @@
     "react-dom": "^17.0.2",
     "typescript": "^4.4.3"
   },
+  "files": [
+    "esm",
+    "lib"
+  ],
   "peerDependencies": {
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0"
+    "react": ">=16.8.0"
   },
   "engines": {
     "node": ">= 12.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/xnimorz/use-debounce.git"
+    "url": "git+ssh://git@github.com:oyalhi/use-clear-params.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oyalhi/use-clear-params/issues"
   }
 }
